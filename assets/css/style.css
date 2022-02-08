@@ -1,0 +1,50 @@
+*, 
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Elements communs*/
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2{
+  font-size: 1.6rem;
+}
+
+img {
+  max-width: 50%;
+  height: auto;
+  margin-bottom: 1rem;
+  display: block;
+  margin: auto;
+}
+
+img:hover {
+  transform: scale(1.1);
+  transition: transform .2s;
+}
+
+ul {
+  list-style: circle inside;
+  margin-left: 1rem;
+}
+
+a {
+  text-decoration: none;
+} 
+
+a:hover {
+  text-decoration: underline;
+}
